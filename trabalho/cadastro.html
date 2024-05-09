@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--HEADER E BANNER-->
+   <header class="banner">
+    <nav class="logo-options">
+
+        <div id="logo">
+            <a href="home.html"><img src="css/images/logo-original.png" alt=""></a>
+        </div>
+        <div id="options">
+            <div><a href="home.html">Página Principal</a></div>
+            <div><a href="cadastro.html">Cadastro</a></div>
+        </div> 
+    </nav>
+
+    <img src="css/images/banner.jpg" alt="">
+
+   </header>
+
+
+<!--CONTEUDO-->   
+<main>
+
+    <div class="container">
+        <a class="links" id="paracadastro"></a>
+
+        <div class="content">
+            <div id="cadastro">
+                <form method="post" action="">
+                    <h1>Cadastro de Voluntários</h1>
+                    <p>
+                        <label for="nome_cad">Seu Nome</label>
+                        <input id="nome_cad" name="nome_cad" type="text" required="required" placeholder="nome" />
+                    </p>
+
+                    <p>
+                        <label for="email_cad">Seu e-mail</label>
+                        <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@gmail.com" />
+                    </p>
+
+                    <p>
+                        <label for="senha_cad">Sua senha</label>
+                        <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234" />
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Cadastrar" />
+                    </p>
+
+                
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</main>
+
+<!--Rodapé-->
+<footer class="rodape">
+    <div>Desenvolvido por Thales</div>
+   </footer>
+
+</body>
+</html>
